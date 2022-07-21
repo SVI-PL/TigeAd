@@ -7,7 +7,6 @@ get_header();
 $login = $_GET['login'];
 ?>
 
-<main id="primary" class="site-main">
     <section class="login_section">
         <div class="login_form">
             <div class="login_form_title">
@@ -127,7 +126,6 @@ $login = $_GET['login'];
             </div>
         </div>
     </section>
-</main><!-- #main -->
 
 <?php
 get_footer();

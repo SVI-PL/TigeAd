@@ -11,6 +11,13 @@
  */
 
 ?>
+<section class="home-6">
+        <div class="home-6-container">
+            <div class="home_text">Overwhelmed by running Amazon Ads? Try our solution by claiming 30-Day Free Trial! No card needed. </div>
+            <a href="#" class="btn-small-blue">Try Free for 30 Days</a>
+        </div>
+    </section>
+</main><!-- #main -->
 
 <footer class="footer">
 	<div class="footer_col1">
