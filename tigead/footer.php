@@ -32,10 +32,10 @@
 	</div>
 	<div class="footer_col2">
 		<div class="contact_block">
-			<div class="tel_line">123-456-7890</div>
+			<div class="tel_line">+1 (610) 244-89-90</div>
 			<div class="mail_line">info@thinkad.ai</div>
-			<div class="geo_line">500 Terry Francois St</div>
-			<div class="loc_line">San Francisco, CA 94158</div>
+			<div class="geo_line">651 N Broad St</div>
+			<div class="loc_line">Middletown, DE 19709</div>
 		</div>
 	</div>
 	<div class="footer_col3">
@@ -77,6 +77,11 @@
 		<div class="btn-small-blue">Try Free for 30 Days</div>
 	</div>
 </footer>
+<div class="footer_copyright">
+	<div class="footer_copyright_text">
+		<div class="footer_copyright_text_line">© 2022 ThinkAd. All rights reserved.</div>
+		<div class="footer_copyright_text_line"><a href="/terms-of-use/">Terms of Use</a> | <a href="/privacy-policy/">Privacy Policy</a></div>
+	</div>
 </div><!-- #page -->
 <div class="up_box"><i></i></div>
 <?php wp_footer(); ?>
