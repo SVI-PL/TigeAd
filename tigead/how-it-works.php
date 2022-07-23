@@ -4,7 +4,7 @@
 
 get_header();
 ?>
-
+<main id="primary" class="site-main">
     <section class="home-1">
         <div class="home-1-content">
             <div class="home_title">Autonomous Advertising. <span>How Does it Work ?</span></div>
@@ -73,6 +73,12 @@ get_header();
             </div>
         </div>
     </section>
-
+    <section class="home-6">
+        <div class="home-6-container">
+            <div class="home_text">Overwhelmed by running Amazon Ads? Try our solution by claiming 30-Day Free Trial! No card needed. </div>
+            <a href="#" class="btn-small-blue">Try Free for 30 Days</a>
+        </div>
+    </section>
+</main><!-- #main -->
 <?php
 get_footer();

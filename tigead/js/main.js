@@ -36,7 +36,6 @@ jQuery(document).ready(function ($) {
   $('.play').on("click", function () {
     $(this).toggleClass('active');
     $(".poster").addClass('active');
-    $("#vPlayer").attr("src", "/wp-content/themes/tigead/img/VideoAlpha.webm");
     $("#vPlayer").get(0).play();
   });
 

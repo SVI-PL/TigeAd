@@ -11,14 +11,6 @@
  */
 
 ?>
-<section class="home-6">
-        <div class="home-6-container">
-            <div class="home_text">Overwhelmed by running Amazon Ads? Try our solution by claiming 30-Day Free Trial! No card needed. </div>
-            <a href="#" class="btn-small-blue">Try Free for 30 Days</a>
-        </div>
-    </section>
-</main><!-- #main -->
-
 <footer class="footer">
 	<div class="footer_col1">
 		<?php
@@ -80,7 +72,7 @@
 <div class="footer_copyright">
 	<div class="footer_copyright_text">
 		<div class="footer_copyright_text_line">© 2022 ThinkAd. All rights reserved.</div>
-		<div class="footer_copyright_text_line"><a href="/terms-of-use/">Terms of Use</a> | <a href="/privacy-policy/">Privacy Policy</a></div>
+		<div class="footer_copyright_text_line"><a href="/terms-and-conditions">Terms & Conditions</a> | <a href="/privacy-policy">Privacy Policy</a></div>
 	</div>
 </div><!-- #page -->
 <div class="up_box"><i></i></div>

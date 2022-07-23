@@ -15,7 +15,7 @@
 
 get_header();
 ?>
-
+<main id="primary" class="site-main">
 	<section class="page">
 		<div class="content">
 			<?php
@@ -33,6 +33,6 @@ get_header();
 			?>
 		</div>
 	</section>
-
+</main><!-- #main -->
 <?php
 get_footer();

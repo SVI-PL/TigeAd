@@ -78,4 +78,3 @@
 				<div class="login"><a href="/login">Log in <span class="i-sign"></span></a></div>
 			</div>
 		</header>
-		<main id="primary" class="site-main">

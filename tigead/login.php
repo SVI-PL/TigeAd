@@ -6,7 +6,7 @@ Template Name: Login
 get_header();
 $login = $_GET['login'];
 ?>
-
+<main id="primary" class="site-main">
     <section class="login_section">
         <div class="login_form">
             <div class="login_form_title">
@@ -34,7 +34,7 @@ $login = $_GET['login'];
                                 <button type="submit">Singn in</button>
                             </div>
                             <div class="login_form_block_input">
-                            <a href="?login=register" class="forgot">Sing up</a><a href="?login=forgot_password" class="forgot">Can’t log in?</a>
+                                <a href="?login=register" class="forgot">Sing up</a><a href="?login=forgot_password" class="forgot">Can’t log in?</a>
                             </div>
                         </div>
                         <div class="login_footer">
@@ -126,6 +126,6 @@ $login = $_GET['login'];
             </div>
         </div>
     </section>
-
+</main><!-- #main -->
 <?php
 get_footer();
