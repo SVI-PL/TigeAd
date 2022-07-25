@@ -699,7 +699,7 @@ section.page_404 {
     border-radius: 6px;
     padding: 20px;
     width: 100%;
-    color: var(--gray-two) !important;
+    color: var(--yellow) !important;
 }
 
 .login_form_block_input input:-internal-autofill-selected {
@@ -1787,6 +1787,7 @@ section.home-5 {
     width: 70%;
     margin: 0 auto;
     margin-top: 15px;
+    position: relative;
 }
 
 body.page-template-get-started {
@@ -1795,14 +1796,60 @@ body.page-template-get-started {
     background-size: contain;
 }
 
+.wpcf7-form-control-wrap {
+    position: relative;
+    width: 100%;
+}
 
+select.wpcf7-select {
+    background-color: var(--dark-two) !important;
+    border: 1px solid rgba(245, 207, 81, 0.35);
+    box-shadow: 0px 32px 40px -26px #070110;
+    border-radius: 6px;
+    padding: 20px;
+    width: 100%;
+    color: var(--yellow);
+}
 
+span.wpcf7-not-valid-tip {
+    position: absolute;
+    margin-top: 5px;
+}
 
+span.wpcf7-spinner {
+    position: absolute !important;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
 
+.wpcf7-response-output {
+    padding: 30px !important;
+}
 
+input.wpcf7-not-valid::-webkit-input-placeholder {
+    color: red !important;
+}
 
+select option {
+    color: var(--yellow);
+}
 
+select option:first-child {
+    color: var(--gray-one) !important;
+}
 
+.slick-track {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 1280px) {
     #masthead {

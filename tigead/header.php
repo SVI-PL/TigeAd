@@ -18,7 +18,10 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<?php if (is_front_page()) { ?>
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/lib/slick/slick.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() ?>/lib/slick/slick-theme.css" />
+	<?php } ?>
 	<?php wp_head(); ?>
 </head>
 
@@ -48,30 +51,30 @@
 					?>
 				</nav>
 				<div class="mobile_menu_block">
-						<a href="#" class="btn-small">Try Free for 30 Days</a>
-						<div class="social_icon">
-							<a href="#">
-								<div class="social-media-icons">
-									<div class="linkedin"></div>
-								</div>
-							</a>
-							<a href="#">
-								<div class="social-media-icons">
-									<div class="instagram"></div>
-								</div>
-							</a>
-							<a href="#">
-								<div class="social-media-icons">
-									<div class="youtube"></div>
-								</div>
-							</a>
-							<a href="#">
-								<div class="social-media-icons">
-									<div class="facebook"></div>
-								</div>
-							</a>
-						</div>
+					<a href="#" class="btn-small">Try Free for 30 Days</a>
+					<div class="social_icon">
+						<a href="#">
+							<div class="social-media-icons">
+								<div class="linkedin"></div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="social-media-icons">
+								<div class="instagram"></div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="social-media-icons">
+								<div class="youtube"></div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="social-media-icons">
+								<div class="facebook"></div>
+							</div>
+						</a>
 					</div>
+				</div>
 			</div>
 			<div class="header-panel">
 				<a href="#" class="btn-small">Try Free for 30 Days</a>

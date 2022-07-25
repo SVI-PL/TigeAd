@@ -21,37 +21,7 @@ get_header();
                 </div>
             </div>
             <div class="get-started-form">
-            <form action="#">
-                        <div class="login_form_block">
-                            <div class="login_form_block_input">
-                                <input type="text" placeholder="First Name *">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="text" placeholder="Last Name *">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="text" placeholder="Email *">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="text" placeholder="Company">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="text" placeholder="Phone *">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="text" placeholder="Business Model *">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="password" placeholder="Total Annual Sales *">
-                            </div>
-                            <div class="login_form_block_input">
-                                <input type="password" placeholder="Choose your Plan *">
-                            </div>
-                            <div class="login_form_block_input submint">
-                                <button type="submit">Get Proposal</button>
-                            </div>
-                        </div>
-            </form>
+            <?php echo do_shortcode('[contact-form-7 id="41" title="Get started"]'); ?>
             </div>
         </div>
     </section>

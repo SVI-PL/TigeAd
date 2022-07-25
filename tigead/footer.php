@@ -25,7 +25,7 @@
 	<div class="footer_col2">
 		<div class="contact_block">
 			<div class="tel_line">+1 (610) 244-89-90</div>
-			<div class="mail_line">info@thinkad.ai</div>
+			<div class="mail_line">info[at]thinkad.ai</div>
 			<div class="geo_line">651 N Broad St</div>
 			<div class="loc_line">Middletown, DE 19709</div>
 		</div>

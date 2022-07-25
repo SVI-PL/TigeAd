@@ -57,7 +57,7 @@ get_header();
                     </ul>
                 </div>
                 <div class="plan-footer">
-                    <a href="#" class="btn-small-white">Choose</a>
+                    <a href="#" class="btn-small-white">Soon</a>
                 </div>
             </div>
 
